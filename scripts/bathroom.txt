@@ -1,0 +1,29 @@
+=== bathroom ===
+
+snd: dripping.ogg,loop
+img: bathroom.png
+txt: I am in the bathroom. The faucet is dripping. I should fix it, I've promised Julie.
+headache ? txt: I have a real bad headache.
+phone_ringing ? mus: ring.ogg, 10%
+phoned_julie ? not found_phone ? not julie_accept ? snd: cell.ogg, 10%, loop
+
+headache ? not has_bottle ?
+opt: Open the medicine cabinet.
+act: cabinet
+
+opt: Go back into the bedroom.
+act: bedroom
+
+use: Julie's phone
+act: examine_phone
+
+
+=== cabinet ===
+
+snd: pillbottle.ogg,250%
+img: pillbottle.png
+txt: I don't seem to have any left of the strong pain killers. I need to talk to my doctor and get some more.
+
+act: set has_bottle
+act: get Pill bottle
+act: bathroom

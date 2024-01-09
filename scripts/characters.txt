@@ -1,0 +1,34 @@
+=== work ===
+
+name: Frank (my boss)
+short: Work
+face: boss.png
+
+
+=== julie ===
+
+name: Julie (my love)
+short: Julie
+face: girlfriend.png
+
+
+=== landlord ===
+
+name: Mr. Davies (my landlord)
+short: Landlord
+face: landlord.png
+
+
+=== message_service ===
+
+name: 
+short: Messages
+face: machine.png
+
+
+=== doctor ===
+
+name: Dr. Adler (my physician)
+short: Doctor
+face: doctor.png
+

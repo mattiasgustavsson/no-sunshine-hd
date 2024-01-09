@@ -1,0 +1,25 @@
+=== lounge ===
+
+lounge_hangup ? snd: hangup.ogg, 30%
+act: clear lounge_hangup
+phone_ringing ? mus: ring.ogg, 120%
+img: lounge.png
+txt: I'm in the lounge. It feels dark and gloomy. Uninviting. It is still raining outside.
+phone_ringing ? headache ? txt: The phone is ringing, and I have a real bad headache.
+phone_ringing ? not headache ? txt: The phone is ringing.
+headache ? not phone_ringing ? txt: I have a real bad headache.
+
+not phone_ringing ? 
+opt: Use the phone.
+act: phone
+
+phone_ringing ? 
+opt: Answer the phone.
+act: talk_landlord
+
+opt: Go to the kitchen.
+act: kitchen
+
+use: Julie's phone
+act: examine_phone
+

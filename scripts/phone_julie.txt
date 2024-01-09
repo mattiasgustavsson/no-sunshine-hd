@@ -1,0 +1,11 @@
+=== talk_julie ===
+
+snd: dialing.ogg
+act: set phoned_julie
+
+julie: Hi, this is Julie! I am still at the hospital, so I can't take your call right now. Leave a message and I'll call you back when I can.
+player: Hospital? Why would she be at the hospital? I hope everything is ok...
+
+act: phone
+
+
