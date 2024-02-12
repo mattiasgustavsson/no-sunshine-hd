@@ -1,7 +1,7 @@
 title: No Sunshine
 version: 1.0
 author: Mattias Gustavsson
-start: logo
+start: splash
 colormode: rgb
 display_filters: none
 background_location: background.png
@@ -10,9 +10,15 @@ resolution: full
 alone_text: 
 nothing_text: 
 
+=== splash ===
+
+snd: yarnspin.ogg
+scr: made_with_yarnspin_full.png
+auto: logo, 5s
 
 === logo ===
 
+snd: stop,yarnspin.ogg,0.2s
 snd: intro.ogg
 amb: rain.ogg, random, 0.5s
 scr: title.png
